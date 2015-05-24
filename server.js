@@ -10,3 +10,7 @@ app.use(express.static('static'));
 app.get('/', function (req, res) {
   res.render('index');
 });
+
+app.get('/other', function (req, res) {
+	res.render('other');
+});
